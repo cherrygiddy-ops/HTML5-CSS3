@@ -1,0 +1,14 @@
+body{
+    background-image: url(../images/bg-sanfrancisco.jpg);/*defining a background color for the body element*/
+   background-repeat:no-repeat;
+   /*background-position: 100px 100px;/*pushing the image to the center of the body*/
+   background-size: cover  ;
+   height: 300vh;
+   background-attachment: fixed;/*the background is fixed relative to the viewport*/
+   max-width: 1500px;
+}
+
+/*
+repeat-x;/*repeating the background only on x axis
+repeat-y;/*repeating the background only on y axis
+*/
