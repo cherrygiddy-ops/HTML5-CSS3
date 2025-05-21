@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+</head>
+<body>
+    <form action="">
+    <input type="text" list="countries" autocomplete="off">
+    <datalist id ="countries">
+    <option data-value="1">KENYA</option>
+    <option data-value="2">UGANDA</option>
+    <option data-value="3">ZAMBIA</option>
+    <option data-value="4">MALAWI</option>
+    </datalist>
+    <button type="submit">Register</button>
+    </form>
+</body>
+</html>
+
+<!-- 
+datalist is used to support the suggetion list in our input field
+<option data-value="2">UGANDA</option> Data value is the numeric value thats is send to the server to uniquely identify the type of the option we selected
+<input type="text" list="countries" autocomplete="off"> setting native auto complete feature available in brwoser so that it doenst clash with the one we impmemented
+
+-->

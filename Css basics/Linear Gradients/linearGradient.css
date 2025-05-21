@@ -1,0 +1,26 @@
+.box{
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(32deg,
+                              rgba(115,107,231),
+                                rgba(255,107,21,1)) ;
+  /*
+  background: #9b412a;
+background: linear-gradient(90deg, rgba(155, 65, 42, 1) 31%, rgba(87, 199, 126, 1) 62%, rgba(206, 237, 83, 1) 80%);
+  */
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+/*
+Gradients is used to form a transition between two or more colors
+#linear-gradient(to bottom right,dodgerblue,yellow ) ;
+->linear-gradient(to  right,dodgerblue,yellow ) ;
+->linear-gradient(dodgerblue,yellow ) ;
+->linear-gradient(to bottom right,dodgerblue,yellow 30% ) ;filling almost entire space with yellow color
+->inear-gradient(to bottom right,dodgerblue,yellow ,tomato ) ;supplying more than one color to the function
+->linear-gradient(180deg,white,blue,yellow);using degress to have more control
+*/

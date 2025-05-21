@@ -1,0 +1,6 @@
+1.make our page visually to impaired people
+2.help search engines understand what we are providing here
+3.if the image can not be loaded the alternative text will be shown
+
+
+->head on unspash.com for more photos

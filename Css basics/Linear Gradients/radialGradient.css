@@ -1,0 +1,12 @@
+.box{
+    width: 600px;
+    height: 400px;
+    background: radial-gradient(white,blue,yellow);
+}
+/*
+->radial-gradient(white,blue,yellow);with oval in the middle
+->radial-gradient(circle,white,blue,yellow);Circle in the Middle
+->radial-gradient(circle at top left,white,blue,yellow);
+
+->go to cssgradient.io
+*/

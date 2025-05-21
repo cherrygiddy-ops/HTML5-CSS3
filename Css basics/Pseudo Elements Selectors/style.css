@@ -1,0 +1,21 @@
+p::first-letter{
+    /*
+    This is Pseudo-Element which is used to style part of an Element e.g First Letter of A Paragraph while Pseudo-Class is used to Style Elemnts in a particular State eg Hoverd Anchor
+    */
+    font-size: 140%;
+    font-weight: bold;
+}
+p::first-line{
+    font-weight: bold;/*used for Selecting First Line of A Paragraph*/
+}
+::selection{
+    background-color:deeppink;/*Used for Changing The Color OF SELECTION i.e when you select some text*/
+}
+p::before{
+    content: '...';
+    display: block;/*starts on new line and take all availables space */
+}
+p::after{
+    content: '...';/* Used for inserting something Before/After the Paragraphs*/
+    display: block;
+}

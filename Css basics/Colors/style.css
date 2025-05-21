@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:#00ff7b4d
+}
+
+/*
+   ways of Representing colours in CSS
+   1.NAMING COLORS ->Blue
+   2.RED-GREEN-BLUE (RGB) SYSTEM ->rgb(48, 45, 109)
+   3.HSL SYSTEM  (HUGE SATURATION LIGHTNESS) ->hsl(53, 65%, 77%)
+     ->HSLA -> FOR ALPHA CHANNEL
+   4.HEXADECIMAL SYSTEM ->#ff9600
+*/

@@ -1,0 +1,13 @@
+h1{
+    color: deeppink !important;
+}
+h1::selection{
+    background-color: deeppink;
+}
+.heading{
+    color: black;
+}
+#blue{
+    color: red;
+}
+/*browser select a Selection with Higher Prefrences thats ID ->CLASS ->TYPE 

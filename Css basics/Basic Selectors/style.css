@@ -1,0 +1,23 @@
+#products {
+    /* Add your styles here */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.product1{
+    /* Add your styles here */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+}
+a[href] {
+    text-decoration: none;
+    color:yellow
+}

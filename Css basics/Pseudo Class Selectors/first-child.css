@@ -1,0 +1,6 @@
+article:first-child{/*
+                      This is Pseudo-class Selector which are automatically applied by browsers*/
+    color: blue;
+    font-size : 140%;
+    font-style :italic;
+}

@@ -1,0 +1,22 @@
+.box{
+    width: 600px;
+    height: 400px;
+    background-color: gold;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+}
+/*
+1.box-shadow: 10px 10px; adding shadow to the left,and bottom
+2.box-shadow: -10px 10px ;adding a shadow to the right and bottom
+3.box-shadow: 10px 10px 10px green;softening shadow
+4.box-shadow: 0 0 30px green;placing the shadow right under the box and we can have a nice effects
+5.text-shadow: 3px 3px 3px rgba(0,0,0, 0.2);
+*/

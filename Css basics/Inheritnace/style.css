@@ -1,0 +1,8 @@
+P{
+    color: dodgerblue;
+    border: 1px solid black;
+}
+strong{
+    color: initial;
+    border: inherit;
+}

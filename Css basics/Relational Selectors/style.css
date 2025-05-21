@@ -1,0 +1,13 @@
+#products + p{ /* this is relational selector since we are combining two diffrence selectors thats type and id selector
+                  by using (>)greater than sign means decorate only the first paragram in the section element
+                  by using + sign means select the sibling of the previous element
+                  by using ~ (tilter sign ) means selection all the siblings of the previous elements
+                  
+                  advtanges -> Relational Selectors Helps us create Clearner Markup bcause we dont have to assign ids and classes to various HTML ELEMENTS
+                  disadvatntages ->can be Fragile since we can move elemnts around hence lose tracks of this Elemnts (ii) not as fast as Basic Selectors
+                  */
+    color: yellowgreen;
+}
+body{
+    margin: 10px;
+}
