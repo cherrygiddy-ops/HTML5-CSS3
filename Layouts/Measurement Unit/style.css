@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+body{
+    margin: 10px;
+}
+
+
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: aquamarine;
+    border-top: 3px solid orange;
+    overflow: auto;
+}
+/*
+.box{
+    width: 25rem;
+    height: 25rem;
+    background-color: aquamarine;
+    border-top: 3px solid orange;
+    overflow: auto;
+}
+/*
+.box{
+    width: 25vw;                               
+    height: 25vh;
+    background-color: aquamarine;
+    border-top: 3px solid orange;
+    overflow: auto;
+}
+/*
+Absolute units are always fixed the values doesnot change when the size of the screen changes eg pixels(px) ->fixed size border
+Relatives units ->are units relatives to something else
+eg
+->% relative to the size of the container->with relative units we can create layouts that are the same with screen sizes
+->vw & vh relative to the view port (viewport widht and Viewport Height)
+->em & Rem ->relative to the font size
+*/

@@ -1,0 +1,18 @@
+.avatar{
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+.clear{
+    clear:both;
+}
+.tweet{
+    border: 3px solid lightgray;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both; /*The Problem With Floats is that we have A problem of Parents Collpasing hence Every Time we have to use it then we have to clear them after*/
+}

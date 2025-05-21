@@ -1,0 +1,23 @@
+.container{
+    border: 3px solid lightgray;
+    display: grid;
+    grid-template:100px auto 100px / 30fr 70fr ;
+    /*justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;*/
+    height: 100vh;
+    gap: 10px;
+
+}
+.box{
+   /* width: 5rem;
+    height: 5rem;*/
+    background-color: brown;
+}
+.box-one{
+    grid-column: 1 /span 2;/*this means take over two cells*/
+    /*visibility: hidden;*//*HIDE THE ELEMENT BUT STILL ALLOCATE THE SPACE*/
+    /*display: none;/*hide the element as if it was not there*/
+
+}

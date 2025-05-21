@@ -1,0 +1,37 @@
+.container{
+ border: 3px solid lightgray;
+ display: flex;/*USED for laying out elemnts in one direction Also its a block level Elements*/
+ flex-direction: row /*control the direction of elemts ::column-revers:: row-reverse*/;
+ justify-content: flex-end;
+ align-items: flex-end;/*align content along the cross axis*/
+ /*align-content: center;*/
+ /*flex-wrap: wrap;*//* means Any Extra elemts that would not fit on first line is wrapped on to the second line*/
+ height: 90vh/*90% of the viewport*/;
+}
+.box{
+ flex-basis: 5rem;/*this transalte to the width it will only oveeride the width property since we have set :: flex-direction: row::*/
+ flex-grow:1;/*determines the growth factor of flex items */
+ flex-shrink: 1;/*determines the gshrink factor of flex items */
+ flex: 1,1,5rem;/*this combination of  flex-grow,flex-shrink,flex-basis*/
+ width: 5rem;
+ height: 5rem;
+ background: gold;
+ margin: 3px;
+}
+.box-one{
+    /*align-self: flex-start;*//*moving the elementt to the top*/
+    /*align-self: flex-end;*//*moving the element to the bottom of the container*/
+    /*flex-grow: 3;*/
+   /* flex-shrink: 0;*//*its opposite of flex grow*/
+}
+
+/*
+Flexible BOX lAYOUT IS USED for laying out elemnts in one direction
+    NAME TWO WAYS OF ALIGNING ITEMS
+    1.JUSTIFY CONTENT ->content along the main axis
+    2.ALIGN-ITEMS ->align content along the cross axis
+      we have ::justify-content: flex-end ->push to the end of horizontal axis;
+               justify-content: center;
+               justify-content: space-evenly ->space in between them;
+               justify-content: space-between;
+*/

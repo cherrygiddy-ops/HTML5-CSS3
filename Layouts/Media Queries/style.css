@@ -1,0 +1,40 @@
+.container{
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: column;
+
+}
+.box{
+    background-color: gold;
+    padding: 1rem;
+}
+.box:nth-of-type(2){
+    background-color: dodgerblue;
+}
+@media screen and (min-width:600px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .container {
+        flex-direction: row;
+    }
+    .box{
+        background-color: aqua;
+    }
+
+    @media print {
+        body{
+            font-size: 12pt;
+        }
+        .box{
+            padding: 0.5cm
+        }
+    }
+
+    /*
+    Media Queries is used to provide diffrent style for diffrent devices depending on their features such as screen size
+    */
+}
