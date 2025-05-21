@@ -1,0 +1,36 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    
+}
+.container:hover{
+  perspective: 300px;
+ 
+}
+
+
+.box{
+    background-color: gold;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    transition: 10S;
+   
+}
+.container:hover .box{
+  transform: rotateY(45deg);
+  transform-origin: 0 50%; /*CHANGING THE POINT OF ROTATION*/
+  
+}
+.container:hover .box-special{
+  transform: rotateZ(90deg);
+
+ }
+
+/*
+  transform:perspective(300px) translateZ(15PX);
+    transform:perspective(300px) rotateY(15deg);
+  
+*/

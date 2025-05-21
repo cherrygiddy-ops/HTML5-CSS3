@@ -1,0 +1,34 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.box{
+    background-color: gold;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+   
+}
+.box:hover{
+  transform: rotate(45deg) translateX(50PX) skewY(15deg);
+}
+
+/*
+rotate() ->to rotate elements
+scale()-> for making elements smaller or larger
+skew() ->for tilting elements to the left or to the right
+translate() -> for positioning elements on the screen
+
+
+
+transform: rotate(-15deg);
+  transform: scale(1.5);expand the element by 1.5
+   transform: skew(15deg);tilting the element 15degree
+   transform: translate(15px,15px);->moving 15px along y axis and 15px along x axis
+   transform: rotate(45deg) translateX(50PX) skewY(15deg);
+  
+*/
