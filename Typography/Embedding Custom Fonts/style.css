@@ -1,0 +1,38 @@
+
+@font-face {                    /* Equity A text - regular */
+    font-family: "open-sans";
+    src: url("/Fonts/open-sans/opensans-regular-demo.html ") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;/* we are tellining the browesr that this fonts is optional:: optional download the font and stores in cache memory but if already downaloded in cache then it will use it*/ 
+}
+
+body{
+    margin: 10px;
+    font-family: "open-sans",Arial, Helvetica, sans-serif;
+}
+p{
+  font-weight: normal;  
+  font-style: normal;
+  font-size: 1rem;
+  color: black;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+
+/*
+Typography ->Text Formating Formats
+3 CATEGORIES OF FONTS FAMILLY
+1.SERIF FONTS ->USED to potray professional conceps like BOOKS ,NEWSPAPER AND JOURNALS
+    EXAMPLES  GEORGIA AND TIMES NEW ROMANS
+
+2.SANS-SERIF ->
+     EXAMPLES ->AVENIR,AERIAL,FUTURA,HELVETICA AND ROBOTO
+
+3.MONO-SPACE ->THEY HAVE A SINGLE LINE SPACE USED MOSTLY IN WEBS
+    EXAMPLES ->CONSOLAS,COURIER AND UBUNTU
+*/
