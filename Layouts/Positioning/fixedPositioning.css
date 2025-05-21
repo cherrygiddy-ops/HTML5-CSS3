@@ -1,0 +1,30 @@
+.boxes{
+    border: 3px solid gainsboro;
+}
+.box{
+    width: 2rem;
+    height: 2rem;
+
+}
+.box-one{
+    background-color: blue;
+}
+.box-two{
+    background-color: tomato;
+    position: fixed;
+    top:0;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+    z-index: 1;
+}
+.box-three{
+    background-color: gold;
+}
+body{
+    margin: 10px;
+    height: 200vh;
+}
+/*
+with fixed postioning the elements stays in it position even when the page is being scroll down useful for top navigtion part i.e relative to viewport
+*/

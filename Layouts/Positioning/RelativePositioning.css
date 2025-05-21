@@ -1,0 +1,24 @@
+.boxes{
+    border: 3px solid gainsboro;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+
+}
+.box-one{
+    background-color: blue;
+}
+.box-two{
+    background-color: tomato;
+    position: relative;
+    left: 4rem;
+    bottom:4rem ;
+    z-index: 1;
+}
+.box-three{
+    background-color: gold;
+}
+/*
+with Relative positioning we can move element relative to its position and it doesnot impact other elements on the pagei.e relative to normal Positioning
+*/

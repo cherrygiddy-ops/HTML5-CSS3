@@ -1,0 +1,26 @@
+.boxes{
+    border: 3px solid gainsboro;
+    position: relative;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+
+}
+.box-one{
+    background-color: blue;
+}
+.box-two{
+    background-color: tomato;
+    position: absolute;
+    right:  0;
+    bottom:0 ;
+    z-index: 999999;
+}
+.box-three{
+    background-color: gold;
+}
+/*
+with Absolute positioning we can postion any element relative to its container and for this to happens the container must be position relatively
+from the parents view the element is on another layer its removed from original flow of the page i.e relative to parent
+*/

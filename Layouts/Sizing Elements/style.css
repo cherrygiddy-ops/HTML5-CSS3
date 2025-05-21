@@ -1,0 +1,20 @@
+*,.box::after,.box::before{
+    box-sizing: border-box;/*This is Universal Selector this applies to all box properties with class or id slection
+                            ->Border-Box helps to Easily Calculaten the properties of a Box limits the properties to its orginal size even if we add padding or borderr our size will not increase*/
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+   display: inline-block;/*div elements are blocking elements so best is to use span element but with display: inline-block; property
+                         span element does not respect width and height property */
+   margin: 0px 100px 10px 0px;/*trbl*/
+   overflow: auto;/* This is for the overflow contents*/
+}
+.box::after{
+    content: "hello World";
+}
+body{
+    margin: 10px;
+}
